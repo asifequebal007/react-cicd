@@ -22,4 +22,10 @@ jobs:
             - name: "clone the repository"
               uses: actions/checkout@v2
 
+            - name: "install dependencies"
+              uses: npm install
+
+            - name: "lsit down the directory"
+              run: ls
+
 
