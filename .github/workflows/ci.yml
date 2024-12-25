@@ -23,9 +23,9 @@ jobs:
               uses: actions/checkout@v2
 
             - name: "install dependencies"
-              uses: npm install
+              run: npm install
 
-            - name: "lsit down the directory"
+            - name: "list down the directory"
               run: ls
 
 
